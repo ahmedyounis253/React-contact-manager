@@ -4,13 +4,13 @@ const Header = props =>{
     const {branding}=props;
      return (
 
-        <nav className='nav navbar navbar-expand-lg navbar-dark bg-black mb-3 py-0'>
+        <nav className='nav navbar navbar-expand-lg  navbar-dark bg-black mb-3 py-0'>
             <div className='container'>
-            <a className='navbar-brand'>{branding}</a>
+            <a href='#' className='navbar-brand'>{branding}</a>
             <div>
                 <ul className="navbar-nav mr-auto">
                     <li className='nav-item'>
-                        <a href='' className='nav-link'>home </a>
+                        <a href='www.google.com' className='nav-link'> home </a>
                     </li>
                     <li>
 
