@@ -6,14 +6,14 @@ import Header from './components/layout/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contacts from './components/contacts/contacts'
 import {Provider} from './context'
-import AddContact from './components/contacts/AddContact'
+import AddContact from './components/contacts/AddContactUncontrolled'
 ReactDOM.render(
 
   <React.StrictMode>
     <Provider>
     <Header branding='contact manager'/>
     <div className='container'>
-      <AddContact/>
+      <AddContact/> 
     <Contacts />
     </div>
     </Provider>

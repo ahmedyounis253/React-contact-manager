@@ -12,10 +12,7 @@ const Header = props =>{
                     <li className='nav-item'>
                         <a href='www.google.com' className='nav-link'> home </a>
                     </li>
-                    <li>
 
-
-                        </li>
 
                 </ul>
 
